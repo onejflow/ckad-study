@@ -11,7 +11,7 @@ $ curl -vL http://center.zone1.local
 
 # 문제풀이
 
-!(problem.png)
+![](problem.png)
 
 - Ingress에 host가 누락되어 있음. 
 rules 하위에 추가 필요
@@ -37,7 +37,7 @@ selector:
 
 # 해답
 
-!(answer.png)
+![](answer.png)
 
 - IngressClassName 동일해야 함.
 - Ingress에서 Service로 연결하는 포트와 서비스에서 Deployment를 연결하는 포트가 일치해야 함.
