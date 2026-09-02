@@ -56,8 +56,7 @@ spec:
 오픈소스를 띄울 때 root 권한으로 띄워야 하는 경우가 있음. 이 경우, root 권한으로 띄워도 호스트 접근 권한은 막는 경우에 사용  |
 | capabilities | 필요한 특정 권한만 추가  |
 | readOnlyRootFilesystem | true면 컨테이너를 읽기 전용으로 고정, 읽기 전용인 경우 앱 로그나 임시파일도 만들 수 없다는 제약이 존재함.   |
-| seccompProfile | 런타임별 기본 보안 프로필 적용 
-런타임 container-d의 경우 root로 컨테이너를 띄워도 NET_ADMIN에 대한 권한은 자동으로 제외를 시켜줌. → 기본적인 보안 사항은 지킬 수 있게 됨.  |
+| seccompProfile | 런타임별 기본 보안 프로필 적용 런타임 container-d의 경우 root로 컨테이너를 띄워도 NET_ADMIN에 대한 권한은 자동으로 제외를 시켜줌. → 기본적인 보안 사항은 지킬 수 있게 됨.  |
 
 # Kubernetes 문서
 
